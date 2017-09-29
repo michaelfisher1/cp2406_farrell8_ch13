@@ -30,7 +30,7 @@ public class FixDebugThirteen4
          while(string != null)
          {
             array = string.split(delimiter);
-            if(searchPrice >= Double.parseDouble(array[2]))
+            if(searchPrice >= Double.parseDouble(array[1]))
             {
                wasFound = false;
                System.out.println(array[0] + "  $" + array[1]);
